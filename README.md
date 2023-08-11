@@ -1,2 +1,4 @@
 # matlab_programming
-introduction to matlab programmings
+introduction to matlab programming
+
+I confirmed the following examples with GNU Octave
