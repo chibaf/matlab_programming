@@ -98,7 +98,9 @@ octave:6> A*x
 ans =
 
    1
+   
    2
+   
    3
 
 
