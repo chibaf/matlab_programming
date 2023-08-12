@@ -9,13 +9,13 @@ octave:1> 1+sin(1)
 
 ans = 1.8415
 
-octave:2> a=[1 2 3 4 5 6 7 8]
+octave:2> a=[1 2 3 4 5 6 7 8] % row vector
 
 a =
 
    1   2   3   4   5   6   7   8
 
-octave:3> a'
+octave:3> a'     % transposation: a row vector to a column vector
 
 ans =
 
@@ -50,7 +50,7 @@ octave:5> plot(a,b)
 
 We solve a liear equation A x = b by Matlab
 
-octave:1> A=[1 2 3;0 1 2;0 0 1]
+octave:1> A=[1 2 3;0 1 2;0 0 1]   % a matrix
 A =
 
    1   2   3
@@ -59,9 +59,9 @@ A =
    
    0   0   1
 
-octave:2> det(A)
+octave:2> det(A)   % determinant of A
 
-ans = 1
+ans = 1   % det(A) is not zero, then A is not singular. Then A has an inverse matrix.
 
 octave:3>  b=[1;2;3]
 
@@ -73,7 +73,9 @@ b =
    
    3
 
-octave:4> A\b
+% solve the equation A x = b
+
+octave:4> A\b  % this means x = inverse(A)*b
 
 ans =
 
@@ -93,6 +95,8 @@ x =
   
    3
 
+% checking the result
+
 octave:6> A*x
 
 ans =
@@ -102,7 +106,8 @@ ans =
    2
    
    3
-
+   
+% this means we have "b"
 
 
 
