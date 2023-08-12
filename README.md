@@ -44,4 +44,4 @@ b =
 
 octave:5> plot(a,b)
 
-<img width="560" alt="octave-plot-2023-08-12" src="https://github.com/chibaf/matlab_programming/assets/1296728/0d37e99a-399b-4dce-943b-f69a501d8b02">
+<img width="560" alt="octave-plot-2023-08-12" src="https://github.com/chibaf/matlab_programming/assets/1296728/b4f897f0-cfa0-4715-8470-25b3ec7aae5e">
