@@ -3,7 +3,7 @@ introduction to matlab programming
 
 I confirmed the following examples with GNU Octave
 
-# Matlab operation
+# Matlab operation (1)
 
 octave:1> 1+sin(1)
 
@@ -45,3 +45,6 @@ b =
 octave:5> plot(a,b)
 
 <img width="560" alt="octave-plot-2023-08-12" src="https://github.com/chibaf/matlab_programming/assets/1296728/b4f897f0-cfa0-4715-8470-25b3ec7aae5e">
+
+# Matlab operation (2)
+
