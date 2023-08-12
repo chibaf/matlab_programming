@@ -48,7 +48,58 @@ octave:5> plot(a,b)
 
 # Matlab operation (2)：Sovin a liear equation
 
+We solve a liear equation A x = b by Matlab
 
+octave:1> A=[1 2 3;0 1 2;0 0 1]
+A =
+
+   1   2   3
+   
+   0   1   2
+   
+   0   0   1
+
+octave:2> det(A)
+
+ans = 1
+
+octave:3>  b=[1;2;3]
+
+b =
+
+   1
+   
+   2
+   
+   3
+
+octave:4> A\b
+
+ans =
+
+   0
+   
+  -4
+  
+   3
+
+octave:5> x=A\b
+
+x =
+
+   0
+   
+  -4
+  
+   3
+
+octave:6> A*x
+
+ans =
+
+   1
+   2
+   3
 
 
 
