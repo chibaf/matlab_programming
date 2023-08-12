@@ -46,7 +46,7 @@ octave:5> plot(a,b)   % plotting a graph: b=sin(a)
 
 <img width="560" alt="octave-plot-2023-08-12" src="https://github.com/chibaf/matlab_programming/assets/1296728/b4f897f0-cfa0-4715-8470-25b3ec7aae5e">
 
-# Matlab operation (2)：Sovin a liear equation
+# Matlab operation (2)：Soving a liear equation
 
 We solve a liear equation A x = b by Matlab
 
